@@ -1,0 +1,71 @@
+spring:
+  datasource:
+    mysql:
+      driver-class-name: com.mysql.jdbc.Driver
+      validation-query: SELECT 1
+      number-test-per-eviction-run:8
+      time-between-eviction-run-millis: 600000
+      test-on-borrow: false
+      test-while-idle: true
+      login-time: 5000
+      max-active: 6
+      initial-size: 3
+      max-age: 10
+      max-idle: 4
+      max-wait: 5000
+      maximum-pool-size: 10
+      min-idle: 1
+      minimum-idle: 0
+    oracle:
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      validation-query: SELECT sysdate from dual
+      number-test-per-eviction-run: 8
+      time-between-eviction-run-millis: 600000
+      test-on-borrow: false
+      test-while-idle: true
+      max-active: 6
+      initial-size: 3
+      max-age: 10
+      max-idle: 4
+      max-wait: 5000
+      maximum-pool-size: 10
+      min-idle: 1
+      minimum-idle: 0
+  profiles:
+    active: dev
+  jms:
+    enabled: false
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+        ddl-auto: create-drop
+      javax:
+        persistence:
+          sharedCache:
+            mode: ALL
+  redis:
+    timeout: 36000
+    sessionExpire: 18000
+    keyPrefix: cloud
+    pool:
+      maxActive: 400
+      maxTotal: 500
+      maxIdle: 250
+      maxWait: 10000
+      maxWaitMillis: 15000
+      minIdle: 120
+      lifo: true
+      numTestsPerEvictionRun: 10
+      minEvictableIdleTimeMillis: 5
+      testOnBorrow: true
+      testOnReturn: true
+  server:
+    session-timeout: 60
+    tomcat:
+      max-threads: 200
+      uri-encoding: UTF-8
+      basedir: target/tomcat
+      accesslog:
+        enabled: true

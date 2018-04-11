@@ -1,0 +1,16 @@
+com/rograndec/jianeng/shiro/UsernamePasswordProxyToken.class
+com/rograndec/jianeng/annotation/enumtype/ResponseCode.class
+com/rograndec/jianeng/service/ReflectService.class
+com/rograndec/jianeng/annotation/login/PermissionRoleMethod.class
+com/rograndec/jianeng/annotation/PasswordCheckType.class
+com/rograndec/jianeng/shiro/PasswordAuth.class
+com/rograndec/jianeng/annotation/enumtype/ShiroCheckType.class
+com/rograndec/jianeng/annotation/login/LoginService.class
+com/rograndec/jianeng/main/Application.class
+com/rograndec/jianeng/config/SpringContext.class
+com/rograndec/jianeng/annotation/BusinessCheck.class
+com/rograndec/jianeng/annotation/login/FindUserMethod.class
+com/rograndec/jianeng/annotation/login/Password.class
+com/rograndec/jianeng/annotation/ShiroCheck.class
+com/rograndec/jianeng/shiro/CloudCredentialsMatcher.class
+com/rograndec/jianeng/shiro/UserRealm.class

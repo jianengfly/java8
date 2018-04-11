@@ -117,16 +117,6 @@
             <version>1.9.2</version>
         </dependency>
         <dependency>
-            <groupId>com.google.code.kaptcha</groupId>
-            <artifactId>kaptcha</artifactId>
-            <version>2.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.citics.tdxsso</groupId>
-            <artifactId>tdxsso</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-        <dependency>
             <groupId>com.belerweb</groupId>
             <artifactId>pinyin4j</artifactId>
             <version>2.5.1</version>

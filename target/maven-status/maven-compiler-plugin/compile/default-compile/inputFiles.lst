@@ -1,0 +1,16 @@
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/login/FindUserMethod.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/login/PermissionRoleMethod.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/enumtype/ShiroCheckType.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/login/LoginService.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/ShiroCheck.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/service/ReflectService.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/PasswordCheckType.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/main/Application.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/login/Password.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/BusinessCheck.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/shiro/CloudCredentialsMatcher.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/shiro/PasswordAuth.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/config/SpringContext.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/shiro/UserRealm.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/annotation/enumtype/ResponseCode.java
+/work/java/idea/project/java8/src/main/java/com/rograndec/jianeng/shiro/UsernamePasswordProxyToken.java
